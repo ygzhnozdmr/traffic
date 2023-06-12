@@ -1,0 +1,56 @@
+#lamp_main {
+    width: 100px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    margin-left: 50%;
+    margin-top: 25%;
+    transform: translate(-50%,-50%);
+    background-color: blue;
+
+}
+#lamp_main>div>i{font-size: 45px;
+margin: 10px;
+}
+#lamp_main>div>p{
+    z-index: 1 ; 
+    margin-bottom: 0%;
+    color: aliceblue;
+}
+#sure{
+   font-size: 50px;
+   
+}
+
+#kirmizi.passive { color: black;
+
+}
+#kirmizi.active {
+    color: red;
+    }
+#sari.active{
+    color: yellow;
+}
+#sari {
+   
+}
+#yesil.passive { color: black;
+
+
+}
+#yesil.active {
+    color: greenyellow;
+}
+
+#start {position: absolute;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+#start.disabled { pointer-events: none;
+    }
+
+#dur.disabled { pointer-events: none;
+    }
